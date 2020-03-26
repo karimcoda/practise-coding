@@ -48,3 +48,5 @@ Codepen: <a href="https://codepen.io/karim-coda">Follow Me</a>
  <br/>
 Dev:  <a href="https://dev.to/karimcoda65">Follow Me</a>
 
+
+Copyright &copy;
