@@ -1,0 +1,46 @@
+*{
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  color: #242932;
+}
+.container{
+  max-width: 600px;
+  margin: 0 auto;
+}
+.accordion{
+  padding-top: 40px;
+}
+.accordion_title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  border-top: 1px solid #242932;
+  padding: 10px 0px;
+}
+.accordion_icon{
+  background-image: url(https://image.flaticon.com/icons/svg/748/748122.svg);
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  transform: rotate(-45deg);
+  transition: all 0.4s ease-in-out;
+}
+.accordion_content{
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.7s ease-in-out;
+}
+.accordion_content p{
+  padding-bottom: 24px;
+}
+/* Active Class*/
+.active .accordion_content{
+  max-height: 150px;
+}
+.active .accordion_icon{
+  transform: rotate(0deg);
+}

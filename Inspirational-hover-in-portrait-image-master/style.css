@@ -1,0 +1,68 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #222;
+
+    --translate-x: 30px;
+    --translate-y: -20px;
+}
+.portrait{
+    width: 80%;
+    height: 600px;
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    
+}
+.cover-img{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-image: url(https://images.unsplash.com/photo-1486074051793-e41332bf18fc?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=7c08dc233ca06b278c5129d67cedb4c8
+    );
+}
+.hover{
+    -webkit-transition: all 380ms cubic-bezier(0.16, 0.01, 0.77, 1);
+    -moz-transition: all 380ms cubic-bezier(0.16, 0.01, 0.77, 1);
+    -o-transition: all 380ms cubic-bezier(0.16, 0.01, 0.77, 1);
+    transition: all 380ms cubic-bezier(0.16, 0.01, 0.77, 1);
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+}
+.hover-img{
+    -webkit-transition: opacity, -webkit-transform 320ms cubic-bezier(0.16, 0.01, 0.77, 1);
+    -moz-transition: opacity, -moz-transform 320ms cubic-bezier(0.16, 0.01, 0.77, 1);
+    -o-transition: opacity, -o-transform 320ms cubic-bezier(0.16, 0.01, 0.77, 1);
+    transition: opacity, transform 320ms cubic-bezier(0.16, 0.01, 0.77, 1);
+}
+.hover-img::after{
+    content: '';
+    background-color: #FFEB3B;
+    mix-blend-mode: color;
+}.hover-img::after,
+.fill{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+.portrait:hover .hover{
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
+    opacity: 0.4;
+}
+.portrait:hover .hover-img{
+    -webkit-transform: translate(var(--translate-x), var(--translate-y));
+    -moz-transform: translate(var(--translate-x), var(--translate-y));
+    -o-transform: translate(var(--translate-x), var(--translate-y));
+    transform: translate(var(--translate-x), var(--translate-y));
+}
+
+.z10{
+    z-index: 10;
+}
