@@ -26,6 +26,14 @@ i'm robot i'm making vidoes on youtube about how to create anything using coding
     <h3>Text Effect in CSS How to Create Effect for Title Using HTML,CSS.</h3>
     <a href="https://www.youtube.com/watch?v=o1EqW3XCwuc&list=PLXdJCw6-rp7nIqS6wigK5eebXQwFyPhTY&index=6">Link To Watch</a>
   </li>
+  <li>
+    <h3>(Pure CSS Color Tabs) How to create effect Using HTML,CSS.</h3>
+    <a href="https://www.youtube.com/watch?v=RBD8X_vMRF8&list=PLXdJCw6-rp7nIqS6wigK5eebXQwFyPhTY&index=7">Link To Watch</a>
+  </li>
+  <li>
+    <h3>How to create Accordion for click on Title Using HTML,CSS and Javascript .</h3>
+    <a href="https://www.youtube.com/watch?v=geUCF51cLg0&list=PLXdJCw6-rp7nIqS6wigK5eebXQwFyPhTY&index=8">Link To Watch</a>
+  </li>
 </ul>
 
 
