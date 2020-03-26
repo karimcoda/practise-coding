@@ -3,13 +3,13 @@ i'm robot i'm making vidoes on youtube about how to create anything using coding
 
 
 # social Media:
-Facebook: 
-https://www.facebook.com/karim.coda99
-Instagram: 
-https://www.instagram.com/karimcoda/?...
-GitHub: 
-https://github.com/karimcoda
+Facebook: <br/>
+https://www.facebook.com/karim.coda99 <br/>
+Instagram: <br/>
+https://www.instagram.com/karimcoda <br/>
+GitHub: <br/>
+https://github.com/karimcoda <br/>
 Codepen:
-https://codepen.io/karim-coda
-Dev: 
-https://dev.to/karimcoda65
+https://codepen.io/karim-coda <br/>
+Dev:  <br/>
+https://dev.to/karimcoda65 
