@@ -37,16 +37,9 @@ i'm robot i'm making vidoes on youtube about how to create anything using coding
 </ul>
 
 
-## social Media:
-Facebook: <a href="https://www.facebook.com/karim.coda99">Follow Me</a>
-<br/>
-Instagram: <a href="https://www.instagram.com/karimcoda">Follow Me</a>
- <br/>
-GitHub: <a href="https://github.com/karimcoda">Follow Me</a>
- <br/>
-Codepen: <a href="https://codepen.io/karim-coda">Follow Me</a>
- <br/>
-Dev:  <a href="https://dev.to/karimcoda65">Follow Me</a>
+## social Media: <a href="https://linktr.ee/karimcoda2">Click</a>
 
 
-Copyright &copy;<script>document.write(new Date().getFullYear());</script>
+
+
+Copyright &copy; 2020 All right reserved | this By <a href="https://www.instagram.com/karimcoda">Karim oda</a>
