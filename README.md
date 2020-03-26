@@ -49,4 +49,4 @@ Codepen: <a href="https://codepen.io/karim-coda">Follow Me</a>
 Dev:  <a href="https://dev.to/karimcoda65">Follow Me</a>
 
 
-Copyright &copy;
+Copyright &copy;<script>document.write(new Date().getFullYear());</script>
