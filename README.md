@@ -4,7 +4,7 @@ i'm robot i'm making vidoes on youtube about how to create anything using coding
 <ul>
   <li>
     <h3>How to Create Masonry Layout With Grid Layout System (HTML&CSS)</h3>
-    <a href="https://www.youtube.com/watch?v=NFhXVnoT1a0&list=PLXdJCw6-rp7nIqS6wigK5eebXQwFyPhTY" style="width:20px;height:20px;padding:10px;background-color:#ccc;">Link To Watch</a>
+    <a href="https://www.youtube.com/watch?v=NFhXVnoT1a0&list=PLXdJCw6-rp7nIqS6wigK5eebXQwFyPhTY">Link To Watch</a>
   </li>
   <li>
     <h3>How To Create Simple Tile Hover Effect With (HTML&CSS)</h3>
@@ -30,13 +30,13 @@ i'm robot i'm making vidoes on youtube about how to create anything using coding
 
 
 # social Media:
-Facebook: <br/>
-https://www.facebook.com/karim.coda99 <br/>
-Instagram: <br/>
-https://www.instagram.com/karimcoda <br/>
-GitHub: <br/>
-https://github.com/karimcoda <br/>
-Codepen: <br/>
-https://codepen.io/karim-coda <br/>
-Dev:  <br/>
-https://dev.to/karimcoda65 
+Facebook: <a href="https://www.facebook.com/karim.coda99">visit me</a>
+<br/>
+Instagram: <a href="https://www.instagram.com/karimcoda">visit me</a>
+ <br/>
+GitHub: <a href="https://github.com/karimcoda">visit me</a>
+ <br/>
+Codepen: <a href="https://codepen.io/karim-coda">visit me</a>
+ <br/>
+Dev:  <a href="https://dev.to/karimcoda65">visit me</a>
+
