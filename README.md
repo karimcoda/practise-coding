@@ -42,4 +42,4 @@ i'm robot i'm making vidoes on youtube about how to create anything using coding
 
 
 
-Copyright &copy; 2020 All right reserved | this By <a href="https://www.instagram.com/karimcoda">Karim oda</a>
+Copyright &copy; 2020 All right reserved | this By <a href="https://www.instagram.com/karimcoda">Karim Coda</a>
