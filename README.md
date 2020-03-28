@@ -46,6 +46,11 @@ i'm robot i'm making vidoes on youtube about how to create anything using coding
     <h3>(Transition page)How to create effect Using Transform (HTML,CSS).</h3>
     <a href="https://www.youtube.com/watch?v=zWCistU2jys&list=PLXdJCw6-rp7nIqS6wigK5eebXQwFyPhTY&index=9">Watch</a>
   </li>
+  <li>
+    <h3>(Search Box) How to create effect Using Focus (HTML,CSS and Javascript ).</h3>
+    <a href="https://www.youtube.com/watch?v=rnjpC4AZZZQ&list=PLXdJCw6-rp7nIqS6wigK5eebXQwFyPhTY&index=10">Watch</a>
+    <a href="https://codepen.io/karim-coda/pen/rNVoPMJ">CodePen</a>
+  </li>
 </ul>
 
 
