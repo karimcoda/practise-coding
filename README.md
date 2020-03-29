@@ -51,6 +51,11 @@ i'm robot i'm making vidoes on youtube about how to create anything using coding
     <a href="https://www.youtube.com/watch?v=rnjpC4AZZZQ&list=PLXdJCw6-rp7nIqS6wigK5eebXQwFyPhTY&index=10">Watch</a>
     <a href="https://codepen.io/karim-coda/pen/rNVoPMJ">CodePen</a>
   </li>
+  <li>
+    <h3>(Search Box) How to create effect Using Focus (HTML,CSS and Javascript ).</h3>
+    <a href="https://www.youtube.com/watch?v=PchUAUpQk-4&t=2s&list=PLXdJCw6-rp7nIqS6wigK5eebXQwFyPhTY&index=11">Watch</a>
+    <a href="https://codepen.io/karim-coda/pen/KKpJVmP">CodePen</a>
+  </li>
 </ul>
 
 
