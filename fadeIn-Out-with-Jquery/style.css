@@ -1,0 +1,76 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+
+.conainer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+}
+.conainer .content{
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	border: 1px solid #000;
+	border-radius: 8%;
+	margin: 10px 20px;
+	position: relative;
+}
+.conainer .content .content-text{
+	width: 100%;
+	height: 100%;
+	border-radius: 8%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	z-index: 1;
+}
+.conainer .content .content-text img{
+	max-width: 100%;
+	height: 200px;
+	border-radius: 8%;
+}
+.conainer .content .content-main{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #fff;
+	z-index: 2;
+	border-radius: 8%;
+	font-size: 40px;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+}
+.conainer .buttons{
+	height: 50px;
+	margin-top: 20px;
+}
+.conainer .buttons a{
+	display: block;
+	width: 100px;
+	padding: 10px 5px;
+	border: 1px solid #000;
+	border-radius: 5px;
+	text-decoration: none;
+	color: #000;
+	cursor: pointer;
+}
+.conainer .buttons a:hover{
+	background-color: #000;
+	color: #fff;
+	border:1px solid #fff;
+}
