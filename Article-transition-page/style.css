@@ -1,0 +1,197 @@
+/*Start container*/
+
+.container{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    height: 700px;
+    background-color: #c8cbd7;
+    font-size: 14px;
+}
+
+/*End container*/
+
+.container .container-inner{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+    -webkit-animation: fade-in 1.5 ease,
+                        slide-in 1.2s ease;
+    -moz-animation: fade-in 1.5 ease,
+                    slide-in 1.2s ease;
+    -o-animation: fade-in 1.5 ease,
+                  slide-in 1.2s ease;
+    animation: fade-in 1.5 ease,
+               slide-in 1.2s ease;
+}
+
+.container .container-inner .main-content{
+    flex-basis: 50%;
+    order: 1;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+.container .container-inner .main-content .main-heading{
+    width: 100%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    -webkit-animation: scaleDown 6s ease 2s;
+    -moz-animation: scaleDown 6s ease 2s;
+    -o-animation: scaleDown 6s ease 2s;
+    animation: scaleDown 6s ease 2s;
+}
+.container .container-inner .main-content .main-heading p{
+    width: 60%;
+    padding-bottom: 1px;
+    padding-left: 3px;
+    margin-left: 15px;
+    font-size: 85%;
+    border-bottom: 1px solid #757575;
+    font-style: italic;
+}
+.container .container-inner .main-content .main-heading .heading{
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.container .container-inner .main-content .main-heading .heading #heading-1,
+.container .container-inner .main-content .main-heading .heading #heading-2,
+.container .container-inner .main-content .main-heading .heading #heading-3{
+    margin: 0px;
+    margin-top: -20px;
+}
+.container .container-inner .main-content .main-heading .heading #heading-1,
+.container .container-inner .main-content .main-heading .heading #heading-2{
+    font-size: 500%;
+    font-weight: normal;
+    letter-spacing: -2px;
+}
+.container .container-inner .main-content .main-heading .heading #heading-1{
+    margin-left: 50px;
+}
+.container .container-inner .main-content .main-heading .heading #heading-2{
+    margin-left: 150px;
+}
+.container .container-inner .main-content .main-heading .heading #heading-3{
+    margin-top: -52px;
+    font-size: 1100%;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.container .container-inner .main-content .main-heading .sort-bio{
+    width: 60%;
+    margin-top: -30px;
+    margin-left: 90px;
+    font-style: italic;
+    font-size: 105%;
+}
+.container .container-inner .main-content .main-heading a{
+    margin-left: 92px ;
+    align-self: flex-start;
+    font-weight: bold;
+    font-size: 120%;
+    border: 1px solid #000;
+    padding: 10px ;
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+.container .container-inner .main-content .main-heading a:hover{
+    background-color: #000;
+    color: #fff;
+    
+}
+.container .container-inner .main-content .more-info{
+    margin-top: -70px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: flex-start;
+    height: 0px;
+    overflow: hidden;
+    -webkit-animation: reveal-info 4s ease 3s;
+    -moz-animation: reveal-info 4s ease 3s;
+    -o-animation: reveal-info 4s ease 3s;
+    animation: reveal-info 4s ease 3s;
+}
+.container .container-inner .image-wrapper{
+    flex-basis: 50%;
+    order: 2;
+}
+.container .container-inner .image-wrapper .container-img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    -webkit-animation: scaleDown 6s ease 2s;
+    -moz-animation: scaleDown 6s ease 2s;
+    -o-animation: scaleDown 6s ease 2s;
+    animation: scaleDown 6s ease 2s;
+}
+.container .container-inner .image-wrapper .container-img img{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+/*Keyframes Animation*/
+
+@keyframes fade-in{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes slide-in{
+    0%{
+        top: -300px;
+
+    }
+    100%{
+        top: 0;
+    }
+}
+
+@keyframes scaleDown{
+    0%{
+        transform: scale(1);
+    }
+    10%{
+        transform: scale(0.7);
+    }
+    95%{
+        transform: scale(0.7);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+@keyframes reveal-info{
+    0%{
+        height: 0px;
+
+    }
+    5%{
+        height: 350px;
+    }
+    95%{
+        height: 350px;
+    }
+    100%{
+        height: 0px;
+    }
+}
