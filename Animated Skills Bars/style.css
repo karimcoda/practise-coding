@@ -1,0 +1,113 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+.skillsBox{
+    position: relative;
+    width: 600px;
+    padding: 50px;
+    margin: 30px auto;
+    margin-bottom: 0px;
+}
+.skillsBox .header{
+    width: 100%;
+    background-color: #000;
+    text-align: center;
+    border: 1px solid #000;
+    z-index: 1;
+}
+.skillsBox .header h1{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    color: #fff;
+    font-size: 50px;
+    text-shadow: 0.03em 0.03em 0 #fff;
+    letter-spacing: 2px;
+    z-index: 3;
+}
+.skillsBox .header h1::after{
+    content: attr(data-shadow);
+    position: absolute;
+    top: 0.06em;
+    left: 4.7em;
+    text-shadow: none;
+    background: linear-gradient(45deg, transparent 45%, #fff 45%, #e6e6e6 55%, transparent 0%);
+    background-size: 0.05em 0.05em;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: name 15s linear infinite;
+    z-index: 2;
+}
+.skillsBox .body{
+    width: 100%;
+    background-color: rgba(196, 196, 196, 0.171);
+    border: 1px solid #fff;
+    border-top: 10px solid #fff;
+    display: none;
+}
+.skillsBox .body .content{
+    padding: 10px;
+}
+.skillsBox .body .content .skills{
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.skillsBox .body .content .skills h2{
+    margin: 10px 0 0;
+    padding: 0;
+    font-size: 18px;
+
+}
+.skillsBox .body .content .skills .progress{
+    width: 100%;
+    height: 20px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    line-height: 22px;
+    overflow: hidden;
+}
+.skillsBox .body .content .skills .progress .percent{
+    text-align: right;
+    color: #000;
+    padding-right: 10px;
+    border-right:2px solid #000 ;
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.911) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.911) 50%,rgba(255, 255, 255, 0.911) 75%, transparent 75%, transparent);;
+    background-size: 30px 30px ;
+    animation: name-2 0.5s  linear infinite;
+}
+.skillsBox .body .content .skills:nth-of-type(1) .progress .percent{
+    width: 90%;
+}
+.skillsBox .body .content .skills:nth-of-type(2) .progress .percent{
+    width: 100%;
+}
+
+.skillsBox .body .content .skills:nth-of-type(3) .progress .percent{
+    width: 60%;
+}
+.skillsBox .body .content .skills:nth-of-type(4) .progress .percent{
+    width: 30%;
+}
+
+
+@keyframes name-2{
+    0%{
+        background-position: 0 0;
+    }
+    100%{
+        background-position: 30px 0;
+    }
+}
+@keyframes name{
+    0%{
+        background-position: 0 0;
+    }
+    100%{
+        background-position: 100% -100%;
+    }
+}
