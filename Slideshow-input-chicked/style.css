@@ -1,0 +1,97 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: #001f3f;
+}
+/*-------------------------------------------------------*/
+/*-------------------------------------------------------*/
+/*-------------------------------------------------------*/
+
+.slideshow{
+	width: 700px;
+	height: 400px;
+	overflow: hidden;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.slideshow .slides{
+	width: 600%;
+	height: 100%;
+	display: flex;
+}
+.slideshow .slides .sile{
+	width: 20%;
+	transition: 0.5s;
+}
+.slideshow .slides .sile{
+	width: 100%;
+	height: 100%;
+}
+.labels{
+	position: absolute;
+	top: 90%;
+	left: 0%;
+	width: 100%;
+	height: 15px;
+	display: flex;
+	justify-content: center;
+}
+.labels label{
+	width: 50px ;
+	height: 100%;
+	border: 2px solid #fff;
+	margin-left: 10px;
+	transition: 0.5s;
+	cursor: pointer;
+}
+.labels label:hover{
+	background-color: #fff;
+}
+input{
+	visibility: hidden;
+	position: absolute;
+}
+
+#rd-1:checked ~ .col{
+	margin-left: 0%;
+}
+#rd-2:checked ~ .col{
+	margin-left: -20%;
+}
+#rd-3:checked ~ .col{
+	margin-left: -40%;
+}
+#rd-4:checked ~ .col{
+	margin-left: -60%;
+}
+#rd-5:checked ~ .col{
+	margin-left: -80%;
+}
+#rd-6:checked ~ .col{
+	margin-left: -100%;
+}
+
+/*Background-color if image doesn't work apparent color. */
+.slideshow .slides .sile:nth-of-type(1) {
+  background-color: #f012be;
+}
+.slideshow .slides .sile:nth-of-type(2) {
+  background-color: #ffdc00;
+}
+.slideshow .slides .sile:nth-of-type(3) {
+  background-color: #3d9970;
+}
+.slideshow .slides .sile:nth-of-type(4) {
+  background-color: #7fdbff;
+}
+.slideshow .slides .sile:nth-of-type(5) {
+  background-color: #0074d9;
+}
+.slideshow .slides .sile:nth-of-type(6) {
+  background-color: #ff4136;
+}
