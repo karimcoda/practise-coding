@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+:root{
+    --main-color: #001f3f;
+    --white-color: #fff;
+    --black-color: #000;
+    --color-button: #607d8bbf;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Code', monospace;
+    color: var(--font-color);
+}
+body {
+    background-color: var(--white-color);
+    width: 100%;
+    height: 100hv;
+}
+.showcase{
+    height: 100vh;
+    color: var(--white-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.showcase .video-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.showcase .video-container video{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+}
+.showcase .video-container::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.showcase .content{
+    z-index: 2;
+}
+.showcase .content h1{
+    font-size: 100px;
+    text-transform: uppercase;
+}
+.showcase .content span{
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color: var(--white-color);
+}
+.showcase .content p{
+    letter-spacing: 10px;
+}
