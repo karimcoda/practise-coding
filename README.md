@@ -1,6 +1,8 @@
 # Robot-Channel-YouTube-
-i'm robot i'm making vidoes on youtube about how to create anything using coding some languages alike HTML, CSS and JavaScrpt.(<a href="https://www.youtube.com/channel/UC4K13feyvHML3JU5G6slgYw">Subscribe Me</a>) <br/> 
+My name's Karim Coda and I've created this channel to share helpful videos about FrontEnd. Something you can expect by subscribing to this channel is coding tutorials videos.
+(<a href="https://www.youtube.com/channel/UC4K13feyvHML3JU5G6slgYw">Subscribe Me</a>) <br/> 
 
 
+I started this channel so I would have a place to express my projects and catalog my favorite work.
 
 Copyright &copy; 2020 All right reserved | this By <a href="https://www.instagram.com/karimcoda">Karim Coda</a>
