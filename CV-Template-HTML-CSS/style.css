@@ -1,0 +1,126 @@
+:root{
+	--bg-color: rgb(187, 218, 226);
+	--font-color: #001f3f;
+	--font-color1: rgb(138, 138, 138);
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.container{
+	width: 70%;
+	margin: 20px auto;
+	display: flex;
+	justify-content: start;
+	align-items: flex-start;
+	border: 1px solid #000;
+	box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, .75);
+}
+/* col 1 */
+.container .col-1{
+	padding:20px;
+	width: 40%;
+	background-color: var(--bg-color);
+}
+.container .col-1 .item1{
+	width: 100%;
+	height: 200px;
+	position: relative;
+}
+.container .col-1 .item1 .img-container{
+	width:200px;
+	height: 200px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 50%;
+	overflow: hidden;
+}
+.container .col-1 .item1 .img-container img{
+	width: 100%;
+	height: 100%;
+}
+.container .col-1 .item2,
+.container .col-1 .item3,
+.container .col-1 .item4,
+.container .col-1 .item5{
+	width: 100%;
+	margin: 30px 0px 15px;
+	padding: 20px;
+}
+.container .col-1 h3{
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	color: var(--font-color);
+}
+.container .col-1 p{
+	font-size: 12px;
+}
+.container .col-1 ul{
+	padding: 0px 14px;
+	font-size: 14px;
+}
+.container .col-1 .item2{
+
+}
+/* col 2 */
+.container .col-2{
+	width: 100%;
+}
+.container .col-2 .item1{
+	width: 100%;
+	margin: 30px 0px;
+	padding: 50px 25px;
+	background-color: var(--bg-color);
+}
+.container .col-2 .item1 h1{
+	font-size: 3em;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	color: var(--font-color);
+}
+.container .col-2 .item1 p{
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 2px;
+}
+.container .col-2 .item2{
+	margin: 100px 0px;
+	padding: 0px 20px;
+}
+.container .col-2 .item3{
+	padding: 0px 20px;
+}
+.container .col-2 .item2 .sconed-item1,
+.container .col-2 .item2 .sconed-item2,
+.container .col-2 .item3 .sconed-item1,
+.container .col-2 .item4 .sconed-item2{
+	margin-bottom: 20px;
+}
+.container .col-2 .item2 h3,
+.container .col-2 .item3 h3{
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	color: var(--font-color);
+}
+.container .col-2 .item2 h4,
+.container .col-2 .item3 h4{
+	color: var(--font-color);
+}
+.container .col-2 .item2 p,
+.container .col-2 .item3 p{
+	margin: 5px 0px;
+	font-weight: 100;
+	font-size: 13px;
+	letter-spacing: 1px;
+	font-style: italic;
+	color: var(--font-color1);
+}
+.container .col-2 .item2 ul,
+.container .col-2 .item3 ul{
+	padding: 0px 16px;
+	font-size: 14px;
+}
