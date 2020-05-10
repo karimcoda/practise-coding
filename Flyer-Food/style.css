@@ -96,7 +96,7 @@ body{
 }
 /* col-3 */
 .container-flexbox .col-3{
-	background-image: url(imgs/meat.jpg);
+	background-image: url(meat.jpg);
 	background-position: center center;
 	background-size: cover;
 	
