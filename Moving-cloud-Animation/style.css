@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#sky{
+    position: relative;
+    overflow: hidden;
+    background: -moz-linear-gradient(top, #C6D9E8 0%, #fff 100%);
+    height: 400px;
+    width: 100%;
+
+}
+.cloud{
+    position: absolute;
+    background-image: url(imgs/cloud.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 260px;
+    height: 114px;
+}
+#cloud1{
+    top: 40px;
+    left: 400px;
+    animation: move 50s linear infinite;
+}
+#cloud2{
+    top: 40px;
+    left: 40px;
+    animation: move 68s linear infinite;
+}
+#cloud3{
+    top: 60px;
+    left: 1010px;
+    animation: move 30s linear infinite;
+}
+#cloud4{
+    top: 105px;
+    left: 223px;
+    transform: scale(0.9);
+    animation: move 45s linear infinite;
+}
+#cloud5{
+    top: 60px;
+    left: 400px;
+    transform: scale(1.5);
+    animation: move 39s linear infinite;
+}
+#cloud6{
+    top: 50px;
+    left: 20px;
+    animation: move 36s linear infinite;
+}
+#cloud7{
+    top: 40px;
+    left: 600px;
+    animation: move 42s linear infinite;
+}
+
+@keyframes move{
+    0%{margin-left: 100%;}
+    100%{margin-left: -150%;}
+}
