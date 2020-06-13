@@ -52,6 +52,7 @@
     text-decoration: none;
     border-radius: 4px;
     opacity: .94;
+    cursor: pointer;
 }
 .container .items .item{
     justify-content: space-between;
